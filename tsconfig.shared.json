@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "moduleDetection": "force",
+    "verbatimModuleSyntax": true
+  },
+  "include": ["shared/src"]
+}
