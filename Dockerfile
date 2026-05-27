@@ -49,4 +49,4 @@ USER node
 
 EXPOSE 3000
 
-CMD ["node", "node_modules/.bin/tsx", "server/src/index.ts", "--prod"]
+CMD ["node", "node_modules/.bin/tsx", "--tsconfig", "tsconfig.server.json", "server/src/index.ts", "--prod"]
